@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Blog() {
     return (
@@ -10,23 +11,24 @@ function Blog() {
                 a ultricies dui. Aliquam venenatis lectus nec risus consectetur tristique.</p>
                 <div className='article-box'>
                     <img src='..\IMG\blog1.jpg' alt='' />
-                    <h4><a href='..\HTML\article1.html'>Article Number One</a></h4>
+                    <h4><Link to='/Article1'>Article Number One</Link></h4>
                     <p className='article-date'>November 1, 2020 | 0 Comments</p>
                     <p className='article-resume'>Lorem ipsum dolor sit amet</p>
-                    <a href='..\HTML\article1.html' className='article-btn light-btn'>Read post</a>
+                    <Link to='Article1' className='article-btn light-btn'>Read post</Link>
                 </div>
                 <div className='article-box'>
                     <img src='..\IMG\blog2.jpg' alt='' />
-                    <h4><a href='..\HTML\article2.html'>Article Number Two</a></h4>
+                    <h4><Link to='/Article2'>Article Number Two</Link></h4>
                     <p className='article-date'>October 31, 2020 | 0 Comments</p>
                     <p className='article-resume'>Lorem ipsum dolor sit amet</p>
-                    <a href='..\HTML\article2.html' className='article-btn light-btn'>Read post</a>
+                    <Link to='Article2' className='article-btn light-btn'>Read post</Link>
                 </div>
                 <div className='article-box'>
                     <img src='..\IMG\blog3.jpg' alt='' />
-                    <h4><a href='..\HTML\article3.html'>Article Number Three</a></h4>
-                    <p className='article-date'>October 30, 2020 | 0 Comments</p>                    <p className='article-resume'>Lorem ipsum dolor sit amet</p>
-                    <a href='..\HTML\article3.html' className='article-btn light-btn'>Read post</a>
+                    <h4><Link to='Article3'>Article Number Three</Link></h4>
+                    <p className='article-date'>October 30, 2020 | 0 Comments</p>                    
+                    <p className='article-resume'>Lorem ipsum dolor sit amet</p>
+                    <Link to='Article3' className='article-btn light-btn'>Read post</Link>
                 </div>
             </section>
         </div>

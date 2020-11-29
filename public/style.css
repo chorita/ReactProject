@@ -790,6 +790,7 @@ footer .wrapper:after {
 #contact-success, #contact-success-container {
     margin-top: 50px;
     padding: 5em 0;
+    text-align: center;
 }
 #contact-success-container h1 {
     font-size: 36px;

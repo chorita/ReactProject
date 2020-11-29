@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SendJobs() {
     return (
@@ -14,7 +15,7 @@ function SendJobs() {
                     Duis sollicitudin dolor vel mauris faucibus, in pellentesque dui 
                     pulvinar. Ut bibendum fermentum lacus vitae pharetra. Nulla elementum 
                     enim vel consequat tempus. Nam nec tellus vitae tortor pulvinar blandit.</p>
-                    <a href='..\HTML\jobposting.html' className='light-btn'>Job posting</a>
+                    <Link to='/JobPosting' className='light-btn'>Job posting</Link>
             </div>
         </section>
         </div>

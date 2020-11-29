@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function LastJobs() {
     return (
@@ -7,7 +8,7 @@ function LastJobs() {
             <h1>Latest job post</h1>
             <ul>
                 <li>
-                    <a href='job.html' className='clickarea'>
+                    <Link to='GoogleJob' className='clickarea'>
                         <div className='company-box'>
                         <img src='..\IMG\google.png' alt='' />
                         <div className='company-info'>
@@ -22,11 +23,11 @@ function LastJobs() {
                 <div className='job-type'>
                     <span className='onsite'>On site</span>
                 </div>
-                </a>
+                </Link>
                 </li>
 
                 <li>
-                    <a href='job2.html' className='clickarea'>
+                    <Link to='IbmJob' className='clickarea'>
                         <div className='company-box'>
                         <img src='..\IMG\ibm.png' alt='' />
                         <div className='company-info'>
@@ -41,11 +42,11 @@ function LastJobs() {
                 <div className='job-type'>
                     <span className='homeoffice'>Home Office</span>
                 </div>
-                </a>
+                </Link>
                 </li>
 
                 <li>
-                    <a href='job3.html' className='clickarea'>
+                    <Link to='LinkedinJob' className='clickarea'>
                         <div className='company-box'>
                         <img src='..\IMG\linkedin.png' alt='' />
                         <div className='company-info'>
@@ -60,11 +61,11 @@ function LastJobs() {
                 <div className='job-type'>
                     <span className='onsite'>On site</span>
                 </div>
-                </a>
+                </Link>
                 </li>
 
                 <li>
-                    <a href='job4.html' className='clickarea'>
+                    <Link to='FacebookJob' className='clickarea'>
                         <div className='company-box'>
                         <img src='..\IMG\facebook.png' alt='' />
                         <div className='company-info'>
@@ -79,12 +80,12 @@ function LastJobs() {
                 <div className='job-type'>
                     <span className='homeoffice'>Home Office</span>
                 </div>
-                </a>
+                </Link>
                 </li>
             </ul>
             
             <div className='btnjobs-container'>
-                <a href='..\HTML\jobopening.html' className='btn-jobs'>See more jobs</a>
+                <Link to='JobOpening' className='btn-jobs'>See more jobs</Link>
             </div>
         </main>
        </>
