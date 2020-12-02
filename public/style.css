@@ -821,3 +821,144 @@ footer .wrapper:after {
      width: 100%;
      height: auto;
  }
+ /*
+    login-page-container
+*/
+#login-page-container {
+    margin-top: 90px;
+    padding: 5em 0;
+    text-align: center;
+}
+ /*
+    login-page-border
+*/
+.login-page-border h3 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* login-page-container label
+*/
+#login-page-container label {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+}
+ /*
+	Admin Page CSS
+*/
+.admin-page {
+    display: flex;
+    margin-top: 100px;
+    padding: 5em 0;
+}
+.admin-page .admin-sidebar {
+	flex-basis: 20%;
+}
+.admin-page .admin-content {
+	flex-basis: 80%;
+}
+.admin-page .admin-content .pre-table {
+	flex-basis: 80%;
+	padding: 10px 20px;
+	/*outline-offset: 1px #222;*/
+	
+}
+.admin-page .admin-content .pre-table p {
+	padding-left: 5px;
+}
+.pre-table tbody {
+    color: grey;
+}
+.admin-page .admin-content table {
+	border-collapse: collapse;
+	border: 1px solid #222;
+}
+.admin-page .admin-content table th, .admin-page .admin-content table td {
+	/*border-collapse: collapse;*/
+	border: 1px solid #222;
+	padding: 10px;
+}
+.admin-page .admin-content .btn-action {
+	min-width: 70px;
+	min-height: 30px;
+	margin-bottom: 10px;
+}
+.admin-page .admin-sidebar ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+.admin-page .admin-sidebar ul li {
+	padding: 15px 0px;
+    text-align: center;
+    list-style: none;
+}
+.admin-page .admin-sidebar ul a {
+	color: grey;
+	text-decoration: none;
+	transition: 0.5s;
+}
+.admin-page .admin-sidebar ul a:hover {
+    color: dodgerblue;
+}
+.admin-content ul {
+    list-style: none;
+    text-align: center;
+    color: grey;
+}
+.admin-content h3 {
+    text-align: center;
+}
+.admin-content p {
+    text-align: center;
+}
+/*
+	Admin Create Post Page
+*/
+
+.admin-page .create-post-page {
+	flex-basis: 80%;
+}
+
+
+
+/*
+	Admin Posts Page CSS
+*/
+.admin-posts-page {
+	display: flex;
+}
+.admin-posts-page .admin-sidebar {
+	flex-basis: 20%;
+}
+.admin-posts-page .admin-content {
+	flex-basis: 80%;
+}
+.admin-posts-page .admin-sidebar ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.admin-posts-page .admin-sidebar ul li {
+	border: 1px solid #eee;
+	padding: 5px 0px;
+	text-align: center;
+}
+.admin-posts-page .admin-sidebar ul a {
+	color: #222;
+	text-decoration: none;
+}
+.admin-posts-page .admin-content table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #eee;
+}
+.admin-posts-page .admin-content table  tr {
+	border: 1px solid #eee;
+}
+.admin-posts-page .admin-content table th, .admin-posts-page .admin-content table td {
+	border: 1px solid #eee;
+	padding: 5px;
+}
